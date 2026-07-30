@@ -15,5 +15,8 @@ export default defineNuxtConfig({
     public: {
       apiBase: "https://cinemaguide.skillbox.cc"
     }
+  },
+   nitro: {
+    preset: "netlify"
   }
 })
